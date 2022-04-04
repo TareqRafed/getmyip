@@ -1,8 +1,7 @@
 from pick import pick
 
-def showMenu():
-    title = 'Please choose your favorite programming language: '
-    options = ['Java', 'JavaScript', 'Python', 'PHP', 'C++', 'Erlang', 'Haskell']
+def showMenu(options):
+    title = 'Please choose your contact: '
     option, index = pick(options, title)
     print(option)
     print(index)

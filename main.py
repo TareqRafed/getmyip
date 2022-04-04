@@ -13,8 +13,7 @@ external_ip = get_ip()
 copy2clip(external_ip)
 
 print(f'Your ip {external_ip} is now copied to Clipboard')
-get_last_rec()
-
-# showMenu()
+print(f'######################')
+showMenu(get_last_rec())
 
 
